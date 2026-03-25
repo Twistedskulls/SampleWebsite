@@ -179,7 +179,6 @@ and (min-width : 1824px) {
 }
 
 /* Gallery image layout */
-/* GALLERY GRID */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
