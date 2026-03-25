@@ -122,55 +122,6 @@ and (min-width : 1824px) {
 	
 }
 
-/* Hamburger Menu */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.hamburger span {
-  width: 28px;
-  height: 3px;
-  background: #1A2A40;
-  border-radius: 5px;
-}
-
-#nav-links {
-  overflow: hidden;
-}
-
-/* Mobile Section for Hamburger Menu  */
-
-@media (max-width: 768px) {
-
-  .hamburger {
-    display: flex;
-  }
-
-  nav ul {
-    flex-direction: column;
-    width: 100%;
-    background: #FFF8F0;
-    margin-top: 15px;
-    padding: 0;
-    max-height: 0;
-  }
-
-  nav ul li {
-    padding: 12px 0;
-  }
-
-  nav ul li a {
-    font-size: 18px;
-  }
-
-  nav ul.open {
-    max-height: 300px;
-  }
-}
-
 /* Gallery image layout */
 .gallery {
   display: grid;
@@ -190,4 +141,17 @@ and (min-width : 1824px) {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.nav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
 }
