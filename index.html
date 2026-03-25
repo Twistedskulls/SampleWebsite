@@ -2,25 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SewSaige | Handmade Sewing & Knits</title>
+  <title>SewSaige</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <h1 class="logo">SewSaige</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
+  <script>
+  function toggleMenu() {
+    const navLinks = document.getElementById("nav-links");
+    navLinks.classList.toggle("open");
+  }
+</script>
+    <nav>
+  <h1 class="logo">SewSaige</h1>
 
+  <!-- Hamburger Icon -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
   <header>
     <h2>Welcome to SewSaige</h2>
     <img src="images/sewsaigelogo1.png" alt="Logo of sewing machine with the words SewSaige" width="300" height="200">
-    <p>Handmade sewing and knitted treasures crafted with love and creativity.</p>
+    <p>Welcome to SewSaige, where your idea of beauty is brought to life in our products!</p>
   </header>
 
   <footer>
