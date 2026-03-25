@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@300;400;600&display=swap');
-
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Beautifully Delicious', sans-serif;
   background: #FFF8F0;
   color: #1A2A40;
 }
@@ -197,18 +195,3 @@ and (min-width : 1824px) {
   object-fit: cover;
   transition: transform 0.4s ease;
 }
-
-/*hover zoom */
-.gallery img:hover {
-  transform: scale(1.08);
-}
-
-/* Mobile adjustments */
-@media (max-width: 480px) {
-  .gallery {
-    padding: 20px;
-    gap: 15px;
-  }
-}
-
-
