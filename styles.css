@@ -7,6 +7,123 @@ body {
   color: #1A2A40;
 }
 
+/* NAVIGATION */
+nav {
+  background: linear-gradient(90deg, #FFB7C5, #A8E6CF, #FFD93D, #9ADCFF);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav .logo {
+  font-family: 'Fredoka One', cursive;
+  font-size: 28px;
+  color: #1A2A40;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1A2A40;
+}
+
+/* GENERAL LAYOUT */
+header, section {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background: #1A2A40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* FORMS */
+form input, form textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #FFD93D;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+form button {
+  background: #FFB7C5;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* 📱 MOBILE RESPONSIVE SECTION  */
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  header, section {
+    padding: 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  form input, form textarea {
+    width: 95%;
+  }
+
+  header h2 {
+    font-size: 22px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: #FFF8F0;
+  color: #1A2A40;
+}
+
 nav {
   background: linear-gradient(90deg, #FFB7C5, #A8E6CF, #FFD93D, #9ADCFF);
   padding: 15px 30px;
