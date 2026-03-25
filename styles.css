@@ -135,11 +135,9 @@ and (min-width : 1824px) {
   height: 3px;
   background: #1A2A40;
   border-radius: 5px;
-  transition: 0.3s;
 }
 
 #nav-links {
-  transition: max-height 0.4s ease;
   overflow: hidden;
 }
 
@@ -157,7 +155,7 @@ and (min-width : 1824px) {
     background: #FFF8F0;
     margin-top: 15px;
     padding: 0;
-    max-height: 0; /* hidden */
+    max-height: 0;
   }
 
   nav ul li {
@@ -192,5 +190,4 @@ and (min-width : 1824px) {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.4s ease;
 }
