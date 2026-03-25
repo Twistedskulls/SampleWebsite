@@ -9,7 +9,7 @@ body {
 
 /* NAVIGATION */
 nav {
-  background: linear-gradient(90deg, #FFB7C5, #A8E6CF, #FFD93D, #9ADCFF);
+  background: linear-gradient(90deg, #FFB7C5, #A8E6CF, #9ADCFF);
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -17,7 +17,7 @@ nav {
   flex-wrap: wrap;
 }
 
-nav .logo {
+nav .title {
   font-family: 'Fredoka One', cursive;
   font-size: 28px;
   color: #1A2A40;
@@ -37,7 +37,6 @@ nav ul li a {
   color: #1A2A40;
 }
 
-/* GENERAL LAYOUT */
 header, section {
   padding: 40px;
   text-align: center;
@@ -51,7 +50,6 @@ footer {
   margin-top: 40px;
 }
 
-/* FORMS */
 form input, form textarea {
   width: 80%;
   max-width: 400px;
@@ -73,33 +71,33 @@ form button {
 
 /* Mobile Responsive Section */
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 
 }
 
-/* Smartphones (landscape) ----------- */
+/* Smartphones (landscape)  */
 @media only screen 
 and (min-width : 321px) {
 
 }
 
-/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait)  */
 @media only screen 
 and (max-width : 320px) {
 
 }
 
-/* iPads (portrait and landscape) ----------- */
+/* iPads (portrait and landscape)  */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
 }
 
-/* iPads (landscape) ----------- */
+/* iPads (landscape) */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
@@ -107,7 +105,7 @@ and (orientation : landscape) {
 
 }
 
-/* iPads (portrait) ----------- */
+/* iPads (portrait) */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
@@ -115,7 +113,7 @@ and (orientation : portrait) {
 	
 }
 
-/* Desktops and laptops - */
+/* Desktops and laptops */
 @media only screen 
 and (min-width : 1224px) {
 	
@@ -200,7 +198,7 @@ and (min-width : 1824px) {
   transition: transform 0.4s ease;
 }
 
-/* Fun hover zoom */
+/*hover zoom */
 .gallery img:hover {
   transform: scale(1.08);
 }
