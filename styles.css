@@ -2,7 +2,13 @@ body {
   margin: 0;
   font-family: 'Lucida Bright', serif;
   background: #FFF8F0;
-  color: #1A2A40;
+  color: #1c3353;
+}
+
+.send-flowers-regular {
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav {
@@ -15,7 +21,7 @@ nav {
 }
 
 nav .title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Cedarville Cursive', cursive;
   font-size: 28px;
   color: #1A2A40;
 }
