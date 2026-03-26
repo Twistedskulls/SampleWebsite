@@ -161,3 +161,7 @@ and (min-width : 1824px) {
   background-color: #ddd;
   color: black;
 }
+
+article {
+  font-size: larger;
+}
